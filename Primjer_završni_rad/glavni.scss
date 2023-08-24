@@ -1,0 +1,57 @@
+$osnovni-font: Arial, sans-serif;
+$primarna-boja: #3498db;
+$pozadinska-boja: #000;
+$tekst-boja: #fff;
+
+$broj-fotografija: 4;
+
+$osnovna-velicina-fonta: 16px;
+$korak-velicine-fonta: 2px;
+
+$velicina-fotografije: 320px;
+$margina-fotografije: 10px 20px; 
+
+body {
+  font-family: $osnovni-font;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $pozadinska-boja;
+  color: $tekst-boja;
+  text-align: center;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.o-aurori h2 {
+  font-size: $osnovna-velicina-fonta + $korak-velicine-fonta * 2;
+}
+
+.o-aurori p {
+  font-size: $osnovna-velicina-fonta + $korak-velicine-fonta;
+}
+
+.fotografije h2 {
+  font-size: $osnovna-velicina-fonta + $korak-velicine-fonta * 2;
+}
+
+.fotografija {
+  width: $velicina-fotografije;
+  height: $velicina-fotografije / 1.5;
+  background-color: $primarna-boja;
+  margin: $margina-fotografije;
+  display: inline-block;
+}
+
+footer {
+  background-color: $pozadinska-boja;
+  color: $tekst-boja;
+  text-align: center;
+  padding: 20px;
+}
+
